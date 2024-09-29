@@ -25,3 +25,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.top-nav-menu {
+  background: steelblue;
+}
+
+.top-nav-menu > a {
+  min-width: 150px;
+  padding: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+}
