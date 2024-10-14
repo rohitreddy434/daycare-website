@@ -1,0 +1,38 @@
+.home-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.home-tabs {
+  background: #eee7cf;
+  position: sticky;
+  top: 64px;
+  display: flex;
+  justify-content: center;
+}
+.home-tabs > a {
+  line-height: 50px;
+  margin-right: 16px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-tabs > a:hover {
+  background: steelblue;
+  color: #eee7cf;
+}
+
+.content-container {
+  overflow: scroll;
+  scroll-behavior: smooth;
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+}
+.home-layout {
+  height: 100vh;
+}

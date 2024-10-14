@@ -18,6 +18,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
 @layer utilities {
@@ -39,3 +40,14 @@ body {
   justify-content: center;
   border-right: 1px solid gray;
 }
+
+.title-logo {
+  color: white;
+  padding: 8px;
+  background-color: #eea69c #eee7cf #81bab9 #fc7e83 #f7bb43 #78d7d3 #ffa9b0
+    #45869a #f2f0d8 #eea69c;
+}
+
+/* logo-colors: 
+
+*/
