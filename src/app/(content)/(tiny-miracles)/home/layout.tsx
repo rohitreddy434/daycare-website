@@ -1,5 +1,5 @@
 "use client";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
 import { useEffect } from "react";
 import { Menu, MenuProps } from "antd";
@@ -28,7 +28,6 @@ const homeMenuItems = [
 ];
 export default function Layout({ children }: { children: React.ReactNode }) {
   const params = useParams();
-  const pathname = usePathname();
   const router = useRouter();
   const handleHashChange = () => {
     const hash = window.location.hash;
