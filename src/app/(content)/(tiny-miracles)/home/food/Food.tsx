@@ -8,7 +8,7 @@ export default function Food() {
         <strong>Meals and Snacks</strong>
       </Title>
       <p className="intro-text">
-        At Tiny Miracles Daycare, we prioritize your child's well-being by
+        At Tiny Miracles Daycare, we prioritize your child&apos;s well-being by
         providing healthy, balanced meals made from organic ingredients. Our
         goal is to establish healthy eating habits that will last a lifetime.
       </p>
@@ -25,8 +25,8 @@ export default function Food() {
         <Title level={3}>No Sugary Drinks or Packaged Foods</Title>
         <p>
           We avoid serving sugary drinks, processed snacks, or packaged foods.
-          Our focus is on natural, nutrient-dense options that fuel your child's
-          energy and growth.
+          Our focus is on natural, nutrient-dense options that fuel your
+          child&apos;s energy and growth.
         </p>
       </div>
 

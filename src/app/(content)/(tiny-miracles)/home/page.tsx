@@ -33,7 +33,7 @@ export default function Home() {
         observer.unobserve(section);
       });
     };
-  }, []);
+  }, [router]);
 
   return (
     <div className="content-container">

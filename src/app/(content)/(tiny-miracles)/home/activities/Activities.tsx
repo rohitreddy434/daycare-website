@@ -15,8 +15,8 @@ export default function Activities() {
           </h2>
           <p>
             We encourage artistic expression through painting, drawing, and
-            crafting activities that enhance children's fine motor skills and
-            creativity.
+            crafting activities that enhance children&apos;s fine motor skills
+            and creativity.
           </p>
         </li>
 
