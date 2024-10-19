@@ -35,10 +35,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       const id = hash.replace("#", "");
       const element = document.getElementById(id);
       if (element) {
-        const subMenuOffset = 150;
-        const headerOffset = 120; // Adjust this value to match your header height
+        const subMenuOffset = 46;
+        const headerOffset = 64; // Adjust this value to match your header height
         const elementPosition = element.getBoundingClientRect().top;
-        const offsetPosition = elementPosition - (headerOffset + subMenuOffset);
+        const offsetPosition = elementPosition + (headerOffset + subMenuOffset);
         element.scrollTo({
           top: offsetPosition,
           behavior: "smooth",
