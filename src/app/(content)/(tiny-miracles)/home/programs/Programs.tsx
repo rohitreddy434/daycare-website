@@ -3,11 +3,11 @@ import Title from "antd/es/typography/Title";
 export default function Programs() {
   return (
     <div>
-      <Title level={2} style={{ textAlign: "center", padding: 16 }}>
+      <Title level={2} style={{ textAlign: "center" }}>
         <strong>Our Programs</strong>
       </Title>
-      <div style={{ display: "flex" }}>
-        <div style={{ flex: 1, margin: "16px 32px" }}>
+      <div className="section-content programs-container">
+        <div style={{ flex: 1, margin: "16px" }}>
           <Title level={3}>
             <strong>Infant Program (7 Months to 18 Months)</strong>
           </Title>
@@ -44,7 +44,6 @@ export default function Programs() {
           <Title level={3}>
             <strong>Toddler Programs (19 Months to 6 Years)</strong>
           </Title>
-
           <p style={{ marginBottom: "16px" }}>
             Our toddler program focuses on supporting growing independence and
             social skills. We encourage:

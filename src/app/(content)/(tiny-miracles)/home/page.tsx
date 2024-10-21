@@ -46,7 +46,7 @@ export default function Home() {
       <section id="activities" style={{ backgroundColor: "#fc7e83" }}>
         <Activities />
       </section>
-      <section id="food" style={{ backgroundColor: "#f7bb43" }}>
+      <section id="food" style={{ backgroundColor: "#78d7d3" }}>
         <Food />
       </section>
 
